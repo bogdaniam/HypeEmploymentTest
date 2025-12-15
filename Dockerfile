@@ -5,6 +5,9 @@ FROM php:8.2-apache
 # Install pdo_mysql extension for PHP
 RUN docker-php-ext-install pdo_mysql
 
+# Install MySQL client for command-line access
+RUN apt-get update && apt-get install -y default-mysql-client
+
 # Enable Apache rewrite module
 RUN a2enmod rewrite
 
