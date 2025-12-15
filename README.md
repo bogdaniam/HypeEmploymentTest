@@ -40,7 +40,6 @@ This is the simplest way to get the application running.
 
 **Prerequisites:**
 - [Docker](https://www.docker.com/get-started)
-- [Docker Compose](https://docs.docker.com/compose/install/)
 
 **Instructions:**
 1. Clone this repository or download the source code.
