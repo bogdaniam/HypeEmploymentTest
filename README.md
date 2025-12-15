@@ -46,7 +46,7 @@ This is the simplest way to get the application running.
 2. Navigate to the project's root directory in your terminal.
 3. Run the following command to build the Docker images and start the containers in the background:
    ```bash
-   docker-compose up --build -d
+   docker compose up --build -d
    ```
 4. The application will be accessible at `http://localhost`.
 
