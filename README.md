@@ -87,11 +87,11 @@ If you cannot use Docker, you can run the project on a local server environment 
 
 ---
 
-**Note on `HTTP` Protocole:**For this project's local development and testing phase, the HTTP protocol was used for the following reasons:
+**Note on `HTTP` Protocole:** For this project's local development and testing phase, the HTTP protocol was used for the following reasons:
 
-   * Simplicity: It simplifies the initial setup, allowing developers to run the application quickly without the need to configure SSL certificates for a local-only environment.
-   * Controlled Environment: The development server runs on localhost, meaning it is only accessible from the local machine. It is not exposed to the public internet, which mitigates the risk of external threats.
-   * No Sensitive Data: The local instance is intended for functionality testing and typically operates with test data, not real user credentials or sensitive information.
+   - Simplicity: It simplifies the initial setup, allowing developers to run the application quickly without the need to configure SSL certificates for a local-only environment.
+   - Controlled Environment: The development server runs on localhost, meaning it is only accessible from the local machine. It is not exposed to the public internet, which mitigates the risk of external threats.
+   - No Sensitive Data: The local instance is intended for functionality testing and typically operates with test data, not real user credentials or sensitive information.
 
 
 **Note on `.env` file:** For the convenience of this technical test, the `.env` file is included in the project. Please be aware that in a real-world production environment, this file should **never** be committed to version control or included in a project archive, as it contains sensitive credentials. It is included here solely to make the evaluation process as smooth as possible.
