@@ -87,7 +87,7 @@ If you cannot use Docker, you can run the project on a local server environment 
 
 ---
 
-**Note on `HTTP` Protocole:** For this project's local development and testing phase, the HTTP protocol was used for the following reasons:
+**Note on `HTTP` Protocol:** For this project's local development and testing phase, the HTTP protocol was used for the following reasons:
 
    - Simplicity: It simplifies the initial setup, allowing developers to run the application quickly without the need to configure SSL certificates for a local-only environment.
    - Controlled Environment: The development server runs on localhost, meaning it is only accessible from the local machine. It is not exposed to the public internet, which mitigates the risk of external threats.
